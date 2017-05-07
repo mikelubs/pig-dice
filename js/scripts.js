@@ -33,6 +33,7 @@ function Player(name) {
   this.isTurn = false;
   this.dice = new Dice;
 }
+
 Player.prototype.reactToDiceValue = function() {
   if (this.dice.diceValue === "pig out") {
     this.turnScore = 0;
@@ -45,6 +46,7 @@ Player.prototype.reactToDiceValue = function() {
     this.turnScore += this.dice.diceValue;
   }
 }
+
 Player.prototype.chooseToEndTurn = function() {
   this.totalScore += this.turnScore;
   this.turnScore = 0;
