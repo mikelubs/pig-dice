@@ -1,7 +1,6 @@
 .page-header {
   text-align: center;
   padding: 20px;
-  background-color: #d5fdff;
   margin-top: 0;
 }
 
@@ -10,8 +9,6 @@
 }
 
 #rules {
-  background-color: #D5FDFF;
-  border: solid black 2px;
   padding: 15px;
   margin-bottom: 20px;
 }
@@ -39,9 +36,7 @@
 
 #game-play {
   display: none;
-  background-color: #D5FDFF;
   text-align: center;
-  border: solid black 2px;
 }
 
 #game-play button {
@@ -58,7 +53,3 @@ input {
 .die-pics {
   text-align: center;
 }
-
-/*div {
-  border: solid black 1px;
-}*
